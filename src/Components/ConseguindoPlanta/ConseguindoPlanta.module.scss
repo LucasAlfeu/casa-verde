@@ -1,0 +1,77 @@
+.conseguindoPlantas{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__imagem{
+        width: 338px;
+        height: 290px;
+        background: url(../../assets/costaDeAdao.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    }
+    &__container{
+        padding-left: 1.5rem;    background: #FFFFFF;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+        width: 410px;
+    }
+    &__frase{
+        opacity: 0.5;
+    }
+    &__titulo{
+        font-family: 'Elsie Swash Caps', cursive !important;
+        font-weight: 700;
+    }
+    &__lista{
+        list-style: none;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+    &__circuloAmarelo{
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 460px){
+    .conseguindoPlantas{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        width: 96vw;  
+
+        &__imagem{
+            width: 50%;
+            height: 290px;
+            background: url(../../assets/costaDeAdao.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+        }    
+        &__container{
+            padding-left: 1.5rem;    background: #FFFFFF;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+            width: 50%;
+            height: 290px;
+        }
+        &__lista{
+            list-style: none;
+            padding: 0;
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            margin: 0.75rem 0;
+        }    
+        &__circuloAmarelo{
+            margin-right: 1rem;
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+}

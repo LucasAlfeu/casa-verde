@@ -1,0 +1,40 @@
+{
+    "produtos": [
+        {
+            "name": "Ajuga Reptans",
+            "preco": 20,
+            "img": "/ImagensPlanta/ajugaReptans.png",
+            "ordem": 0
+        },
+        {
+            "name": "Cordyline fruticosa",
+            "preco": 35,
+            "img": "/ImagensPlanta/cordyline-fruticosa.png",
+            "ordem": 1
+        },
+        {
+            "name": "Crassula ovata",
+            "preco": 23.2,
+            "img": "/ImagensPlanta/crassula-ovata.png",
+            "ordem": 2
+        },
+        {
+            "name": "Cyperus rotundus",
+            "preco": 20,
+            "img": "/ImagensPlanta/cyperus-rotundus.png",
+            "ordem": 3
+        },
+        {
+            "name": "Delairea odorata",
+            "preco": 20,
+            "img": "/ImagensPlanta/delairea-odorata.png",
+            "ordem": 4
+        },
+        {
+            "name": "Datura metel",
+            "preco": 20,
+            "img": "/ImagensPlanta/datura-metel.png",
+            "ordem": 5
+        }
+    ]
+}

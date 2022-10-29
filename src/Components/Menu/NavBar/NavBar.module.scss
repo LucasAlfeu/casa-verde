@@ -1,0 +1,22 @@
+.navegacao{
+    &__lista{
+        display: flex;
+        list-style: none;
+    }
+    &__item{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}
+
+@media (max-width: 460px){
+    .navegacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__lista{
+            padding: 0;
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+}

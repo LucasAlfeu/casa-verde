@@ -1,0 +1,31 @@
+.cabecalho{
+    display:  flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media (max-width: 460px){
+    .cabecalho{
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 461px) and (max-width: 979px) {
+    .cabecalho{
+        margin-top: 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1280px) {
+    .cabecalho{
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
