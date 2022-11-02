@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import useEmail from 'Hook/useEmail';
 
 const TextoNewslatter = () => {
-    const {setEmail, emailValido, erro, validaEmail} = useEmail() 
+    const { setEmail, emailValido, erro, validaEmail } = useEmail()
 
     return (
         <section className={styles.texto}>

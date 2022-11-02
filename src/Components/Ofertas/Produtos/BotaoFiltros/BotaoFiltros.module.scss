@@ -1,0 +1,35 @@
+button {
+    padding: 0.5rem 1rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.nome {
+    background-color: #2E66FF;
+}
+
+.nome:hover {
+    background-color: #0B1940;
+}
+
+.preco {
+    background-color: #FF3B7D;
+}
+
+.preco:hover {
+    background-color: #400F1F;
+}
+
+.semFiltro {
+    background-color: #ffcb47;
+}
+
+.semFiltro:hover {
+    background-color: #403312;
+}

@@ -1,5 +1,4 @@
 import styles from './ConseguindoPlanta.module.scss';
-import { ReactComponent as CostelaDeAdao } from 'assets/costelaDeAdao.svg';
 import { ReactComponent as CirculoAmarelo } from 'assets/circuloAmarelo.svg'
 
 export default function ConseguindoPlanta () {
